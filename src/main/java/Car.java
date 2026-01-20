@@ -57,14 +57,14 @@ class Car {
      * Updates model of car
      * @param model - new model of car
      */
-    public Void setModel(String model) {
+    public void setModel(String model) {
         this.model = model;
     }
     /**
      * Updates manufacture year of car
      * @param year - new  manufacture year of car
      */
-    public Void setYear(int year) {
+    public void setYear(int year) {
         this.year = year;
     }
 }
