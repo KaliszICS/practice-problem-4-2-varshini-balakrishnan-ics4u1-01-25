@@ -67,4 +67,11 @@ class Car {
     public void setYear(int year) {
         this.year = year;
     }
+    /**
+     * Updates price of car
+     * @param price - new price of car
+     */
+    public void setPrice(double price) {
+        this.price = price;
+    }
 }
