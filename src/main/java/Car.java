@@ -50,7 +50,7 @@ class Car {
      * Updates make of car
      * @param make - new make of car
      */
-    public Void setMake(String make) {
+    public void setMake(String make) {
         this.make = make;
     }
     /**
